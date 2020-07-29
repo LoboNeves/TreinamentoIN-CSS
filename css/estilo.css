@@ -52,7 +52,7 @@ div.amarelo div{
 
 .container{
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto; 
     padding: 0 20px;
     box-sizing: border-box;
@@ -64,7 +64,7 @@ html{
 }
 
 body{
-    background: rgb(212, 165, 35);
+    background: rgb(9, 93, 126);
 }
 
 header{
@@ -112,6 +112,6 @@ footer{
     height: 70px;
     width: 100%;
     background: #222;
+    text-align: center;
+    color: yellow
 }
-
-
