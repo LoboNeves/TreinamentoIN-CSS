@@ -52,8 +52,8 @@ div.amarelo div{
 
 .container{
     width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto; 
     padding: 0 20px;
     box-sizing: border-box;
     /* border: 1px solid red; */
@@ -64,7 +64,7 @@ html{
 }
 
 body{
-    background: #333;
+    background: rgb(14, 152, 170);
 }
 
 header{
@@ -72,7 +72,7 @@ header{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: 6em
+    width: 8em
 }
 
 nav{
@@ -81,7 +81,14 @@ nav{
 
 h1{
     text-align: center;
-    font-size: 3.2em;
+    font-size: 2.5em;
+    background: rgb(167, 185, 2)
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    background: rgb(167, 185, 2)
 }
 
 section{
