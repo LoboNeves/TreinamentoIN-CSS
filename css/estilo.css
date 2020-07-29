@@ -1,0 +1,103 @@
+/* *{
+    background: #333;
+}
+
+div{
+    background: gray;
+}
+
+.amarelo{
+    background: yellow;
+}
+
+#vermelho{
+    background: red;
+}
+
+div.amarelo#vermelho{
+    background: purple;
+} */
+
+/* Exemplo 2 */
+
+/* #ex2 div.amarelo div{
+    background: blue;
+}
+
+#ex2 div.amarelo > div{
+    background: green;
+} */
+
+/* Exemplo 3 */
+
+/* #ex3 div.amarelo ~ div{
+    background: green;
+} */
+
+/* n sei */
+
+/* div.amarelo{
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    margin: 20px;
+    border: 10px solid black;
+}
+
+div.amarelo div{
+    width: 100%;
+    height: 100%;
+    background: green;
+} */
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html{
+    /* font-size: 12px; */
+}
+
+body{
+    background: #333;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background: #666;
+}
+
+nav{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.2em;
+}
+
+section{
+    height: 50vh;
+    width: 100%;
+    background: #334;
+    font-size: 12px;
+}
+
+p{
+    font-size: 1.6em;
+    line-height: 1.5;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background: #222;
+}
+
+

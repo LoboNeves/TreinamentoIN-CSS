@@ -1,0 +1,31 @@
+div, span{
+    margin: 10px;
+    width: 30vmin;
+    height: 30vmin;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+}
+#ex2 div.amarelo > div{
+    width: 80%;
+    height: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ex2 div.amarelo > div div{
+    width: 25%;
+    height: 25%;
+}
+.circulo{
+    border-radius: 50%;
+}
+#ex3{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ------------------ AULA CSS ----------------- */
+
